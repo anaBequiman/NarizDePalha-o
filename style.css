@@ -1,0 +1,54 @@
+#titulo{
+    font-family: 'Anek Latin', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Are You Serious', cursive;
+    font-family: 'Arvo', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+}
+#foto{
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    width: 55px;
+    height: 55px;
+}
+button:hover{
+    color: green;
+}
+canvas{
+    animation-name: animacaoColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacaoColor{
+    from{
+        box-shadow: 1px 1px 38px rgb(255, 255, 255);
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(0, 0, 0);
+    }
+}
